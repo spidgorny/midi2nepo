@@ -1,0 +1,12 @@
+                <block type="robActions_play_tone" id="{{ id_block }}" intask="true">
+                    <value name="FREQUENCE">
+                        <block type="math_number" id="{{ id_freq }}" intask="true">
+                            <field name="NUM">{{ tone }}</field>
+                        </block>
+                    </value>
+                    <value name="DURATION">
+                        <block type="math_number" id="{{ id_dur }}" intask="true">
+                            <field name="NUM">{{ dur }}</field>
+                        </block>
+                    </value>
+                </block>
